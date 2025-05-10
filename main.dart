@@ -33,4 +33,18 @@ void main() {
   }
 
   print('Generated Password: $password');
+
+//Ques 3
+
+  String inputString = "Hello, Dart!"; // Hardcoded string
+
+  if (inputString.isEmpty) {
+    print("The string is empty.");
+  } else {
+    print("The string is not empty.");
+  }
+
+
+
+
 }
