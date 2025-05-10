@@ -1,4 +1,5 @@
 //Ques1
+import 'dart:io';
 import 'dart:math';
 void main() {
   int number = 12345; 
@@ -145,7 +146,7 @@ void main() {
 //Ques12
  {
   List<int> numbers = [3, 9, 1, 6, 4, 2, 8, 5, 7];
-  int largest = numbers[0]; // Start with the first element
+  int largest = numbers[0]; 
 
   for (int i = 1; i < numbers.length; i++) {
     if (numbers[i] > largest) {
@@ -155,6 +156,18 @@ void main() {
 
   print("The largest element in the list is: $largest");
 }
+//Ques13
+{
+  int rows = 5;
+
+  for (int i = 1; i <= rows; i++) {
+    for (int j = 1; j <= i; j++) {
+      stdout.write("$i ");
+    }
+    print(""); 
+  }
+}
+
 
 }
   }
