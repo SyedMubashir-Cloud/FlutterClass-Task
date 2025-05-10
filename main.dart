@@ -36,7 +36,7 @@ void main() {
 
 //Ques 3
 
-  String inputString = "Hello, Dart!";
+  String inputString = "Hello,Jawaan Pakistan";
 
   if (inputString.isEmpty) {
     print("The string is empty.");
