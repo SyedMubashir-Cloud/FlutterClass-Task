@@ -42,6 +42,8 @@ void main() {
   } else {
     print("The string is not empty.");
 
+    //Ques 4
+
   int number = 1;
   int sum = 0;
 
@@ -53,7 +55,17 @@ void main() {
   } while (number <= 50);
 
   print("The sum of odd numbers from 1 to 50 is: $sum");
+   {
+  int number = -5; // You can change this to test other values
 
+  if (number > 0) {
+    print("The number is positive.");
+  } else if (number < 0) {
+    print("The number is negative.");
+  } else {
+    print("The number is zero.");
+  }
+}
 
   }
 
