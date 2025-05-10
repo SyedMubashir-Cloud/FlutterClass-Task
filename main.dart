@@ -1,3 +1,5 @@
+//Ques1
+import 'dart:math';
 void main() {
   int number = 12345; // Hardcoded number
   int count = 0;
@@ -14,4 +16,21 @@ void main() {
   }
 
   print("The number of digits in $number is: $count");
+
+   //Ques2
+
+  int passwordLength = 12; // Hardcoded password length
+  const String chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#\$%^&*()';
+  
+  String password = '';
+  Random random = Random();
+  int i = 0;
+
+  while (i < passwordLength) {
+    int index = random.nextInt(chars.length);
+    password += chars[index];
+    i++;
+  }
+
+  print('Generated Password: $password');
 }
