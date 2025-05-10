@@ -176,8 +176,17 @@ void main() {
     i++;
   } while (i <= 5);
 }
+//Ques15
+{
+  List<int> numbers = [2, 9, 4, 7, 1, 6, 3, 10];
 
-
+  print("Numbers greater than 5:");
+  for (int i = 0; i < numbers.length; i++) {
+    if (numbers[i] > 5) {
+      print(numbers[i]);
+    } 
+  }
+}
 
 }
   }
