@@ -56,7 +56,8 @@ void main() {
 
   print("The sum of odd numbers from 1 to 50 is: $sum");
    {
-  int number = -5; // You can change this to test other values
+    //Ques 5
+  int number = -5; 
 
   if (number > 0) {
     print("The number is positive.");
@@ -65,6 +66,20 @@ void main() {
   } else {
     print("The number is zero.");
   }
+  //Ques6
+   {
+  int number = 4; // Given number
+  int factorial = 1;
+  int i = 1;
+
+  while (i <= number) {
+    factorial *= i;
+    i++;
+  }
+
+  print("The factorial of $number is: $factorial");
+}
+
 }
 
   }
