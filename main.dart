@@ -142,15 +142,21 @@ void main() {
 
   print("Number of vowels in the string: $vowelCount");
 }
+//Ques12
+ {
+  List<int> numbers = [3, 9, 1, 6, 4, 2, 8, 5, 7];
+  int largest = numbers[0]; // Start with the first element
 
-
-
-}
-
-
+  for (int i = 1; i < numbers.length; i++) {
+    if (numbers[i] > largest) {
+      largest = numbers[i];
+    }
   }
 
+  print("The largest element in the list is: $largest");
+}
 
-
+}
+  }
 
 }
