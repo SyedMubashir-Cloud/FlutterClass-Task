@@ -127,6 +127,22 @@ void main() {
     print("$number x $i = ${number * i}");
   }
 }
+//Ques11
+{
+  String input = "Hello, Flutter Course";
+  int vowelCount = 0;
+
+  for (int i = 0; i < input.length; i++) {
+    String ch = input[i].toLowerCase();
+    
+    if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+      vowelCount++;
+    }
+  }
+
+  print("Number of vowels in the string: $vowelCount");
+}
+
 
 
 }
