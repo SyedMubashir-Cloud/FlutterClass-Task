@@ -36,7 +36,7 @@ void main() {
 
 //Ques 3
 
-  String inputString = "Hello, Dart!"; // Hardcoded string
+  String inputString = "Hello, Dart!";
 
   if (inputString.isEmpty) {
     print("The string is empty.");
