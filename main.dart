@@ -89,6 +89,7 @@ void main() {
     print(i);
     i--;
   }
+  //Ques8
    {
   List<int> numbers = [10, 20, 30, 40, 50];
   int sum = 0;
@@ -106,6 +107,18 @@ void main() {
     print("The list is empty. Cannot compute average.");
   }
 }
+//Ques9
+ {
+  int i = 1;
+
+  do {
+    if (i % 2 == 0) {
+      print(i);
+    }
+    i++;
+  } while (i <= 20);
+}
+
 
 }
 
